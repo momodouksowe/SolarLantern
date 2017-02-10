@@ -1,0 +1,378 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+/*Green header bar*/
+#headerBar {
+   width: 100%;
+   float: left;
+   background-color: #00E900;
+   position: relative;
+  }
+
+ /*Logo width*/
+#logo{
+    float:left;
+    width: 45%;  
+}
+
+/*logo img*/
+#logo img{
+    float:left;
+    height: 100px; 
+    width: 300px;
+    margin-left: 4%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    max-width: 100%;
+    height: auto;
+}
+/*Position Catelogue button*/
+#menu{
+    float:right;
+    width: 45%;
+}
+
+/*Style Catelogue button*/
+#menu input {
+    float: right;
+    margin-right: 4%;
+    margin-top: -1%;
+    background-color: black;
+    max-width: 100%;
+    height: auto;
+    margin-top: 3.5%;
+    position: relative;
+    border: 2px solid #00E900;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px; 
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*Hover effect on the catelogue button*/
+#menu input:hover{
+  font-weight: bold;
+  color:black;
+  background-color: white
+}
+
+/*When screen become smaller on  catelogue button*/
+@media screen and (max-width: 1024px) {
+    #menu input{
+    font-size: 0.8em;
+ 
+    }
+}
+@media screen and (max-width: 768px) {
+    #menu input{
+    font-size: 0.6em;
+ 
+    }
+}
+@media screen and (max-width: 480px) {
+    #menu input{
+       font-size: 0.4em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #menu input{
+       font-size: 0.4em;
+    }
+}
+
+/*black header bar*/
+#BurroHeader {
+   width: 100%;
+   float: left;
+   margin-left: 0%;
+   background-color: black;
+   position: relative;
+  }
+/*When screen become smaller on  black header*/
+@media screen and (max-width: 1024px) {
+    #BurroHeader {
+    height: 60px;
+ 
+    }
+}
+@media screen and (max-width: 768px) {
+    #BurroHeader {
+    height: 40px;
+ 
+    }
+}
+@media screen and (max-width: 480px) {
+    #BurroHeader {
+    height: 30px;
+ 
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #BurroHeader {
+    height: 15px;
+ 
+    }
+}
+
+/* Style Save More, Earn More, Do More (header)*/
+#BurroHeader h1{
+    line-height: 60px;
+    margin-bottom: 1%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    display: inline;
+    position: relative;
+}
+/*Effect of screen size on the header*/
+@media screen and (max-width: 1024px) {
+    #BurroHeader h1{
+       font-size: 1.2em;
+    }
+}
+@media screen and (max-width: 768px) {
+    #BurroHeader h1 {
+       font-size: 1em;
+       top: -9px;
+    }
+}
+@media screen and (max-width: 480px) {
+    #BurroHeader h1 {
+       font-size: 0.8em;
+      top: -15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #BurroHeader h1 {
+       font-size: 0.6em;
+      top: -23px;
+    }
+}
+/*style promotional message*/
+.Banner h4{
+  color: black; 
+  margin-left: 8%; 
+  margin-right: 8%; 
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+/*Effects of screen sizes on promotional message*/
+@media screen and (min-width: 1024px) {
+    div.Banner h4{
+       font-size: 1.2em;
+    }
+}
+@media screen and (max-width: 768px) {
+    div.Banner h4 {
+       font-size: 0.8em;
+ 
+    }
+}
+@media screen and (max-width: 480px) {
+    div.Banner h4 {
+       font-size: 0.6em;
+
+    }
+}
+@media screen and (max-width: 320px) {
+    div.Banner h4 {
+       font-size: 0.6em;
+    }
+}
+/*Responsive Banner image*/
+.Banner img{
+    max-width: 85%;
+    height: auto;
+    display: block; 
+}
+
+/*promotion images and discription*/
+.PromoImgs{
+    float:left;
+    margin-left: 8%;
+    margin-right: 8%
+}
+.PromoImgs img {
+    display: inline;
+    padding: 2px;
+}
+
+/*Effects of screen sizes on promo images*/
+@media screen and (max-width: 1024px) {
+    .PromoImgs img{
+    height:auto;
+    max-width: 70%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .PromoImgs img{
+    height:auto;
+    max-width: 50%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .PromoImgs img{
+    height:auto;
+    max-width: 30%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .PromoImgs img{
+    height:auto;
+    max-width: 30%;
+    }
+}
+/*Image discription text*/
+div.descp {
+    color: black; 
+    text-align: justify; 
+    margin-left: 10%; 
+    margin-right: 10%;
+    font-weight: bold; 
+    line-height: 30px;
+    font-size: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+/*Effects of screen sizes on discription*/
+
+@media screen and (max-width: 1024px) {
+    div.descp{
+       font-size: 1em;
+    }
+}
+@media screen and (max-width: 768px) {
+    div.descp {
+       font-size: 0.8em;
+    }
+}
+@media screen and (max-width: 480px) {
+    div.descp {
+       font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    div.descp {
+       font-size: 0.6em;
+    }
+}
+/*The buy-now*/
+.BuyNow {
+  float: left;
+  width: 100%;
+
+}
+.BuyNow input{
+  color: black;
+  font-weight: bold; 
+  position: relative;
+  line-height: 30px;
+  text-align: center;
+  font-size: 30px; 
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin-bottom: 3%;
+  border: 2px solid #00E900;
+  border-radius: 50px;
+  background-color: #00E900;
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+/*Hover effect on the catelogue button*/
+.BuyNow input:hover{
+  font-weight: bold;
+  color:black;
+  background-color: white
+}
+
+/*Effect of screen size on the buy-now*/
+@media screen and (max-width: 1024px) {
+   div.BuyNow input{
+       font-size:1em;
+       font-weight: bold; 
+       height: 30%;
+       width: 28%;
+    }
+}
+@media screen and (max-width: 768px) {
+    div.BuyNow input {
+       font-size: 0.6em;
+       font-weight: bold;
+       height: 30%;
+       width: 30%;
+    }
+}
+@media screen and (max-width: 480px) {
+    div.BuyNow input {
+       font-size: 0.4em;
+       font-weight: bold;
+       height: 30%;
+       width:30%;
+    }
+}
+@media screen and (max-width: 320px) {
+    div.BuyNow input {
+       font-size: 0.2em;
+       font-weight: bold;
+       height: 20%;
+       width: 35%;
+    }
+}
+
+/*style footer*/
+ #footer {
+   width: 100%;
+   float: left;
+   margin-left: 0%;
+   background-color: black;
+   position:relative;
+   margin-bottom: 1%;
+}
+
+/*position of the items on the left*/
+#contacts ul img {
+   margin-top: 0.7%;
+   margin-bottom: 1%;
+   margin-left: 10%;
+
+}
+
+/*Effect of screen size on the footer icons*/
+@media screen and (max-width: 1024px) {
+  #contacts ul img{
+        max-width: 20%; 
+        height: auto;
+    }
+}
+@media screen and (min-width: 768px) {
+  #contacts ul img{
+        max-width: 20%; 
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+   #contacts ul img{
+      max-width: 20%; 
+      height: auto;
+    }
+}
+@media screen and (max-width: 320px) {
+   #contacts ul img{
+      max-width: 20%; 
+      height: auto;
+    }
+}
+
+
